@@ -1,0 +1,202 @@
+*{box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display:flex;
+    background-color: #222222;
+    width: 414px;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.padre1 {
+    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 20/img/Fondo.png');
+    width: 414px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding: 20px;
+}
+
+span {color:red;}
+
+button {
+    background-color: red;
+    color: white;
+    height: 61px;
+    width: 220px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10%;
+    border-style: none;
+}
+
+.padre2 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e6e6e6;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    
+}
+
+.box1 {
+    background-color: white;
+    width: 240px;
+    height: 322px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.foto1 {
+    align-self: center;
+    padding: 15px;
+}
+
+.box2 {
+    background-color: white;
+    width: 240px;
+    height: 322px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.foto2 {
+    align-self: center;
+    padding: 15px;
+}
+
+
+
+.box3 {
+    background-color: white;
+    width: 240px;
+    height: 322px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.foto3 {
+    align-self: center;
+    padding: 15px;
+}
+
+.gratis {
+    color: #619D00;
+    font-size: 10px;
+}
+
+.silla {
+    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 20/img/banner 1.png');
+    width: 288px;
+    height: 108px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    padding: 15px;
+}
+
+.computadoras {
+    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 20/img/banner 2.png');
+    width: 288px;
+    height: 108px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    padding: 15px;
+}
+
+.padre3 {
+    background-color: #222222;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 414px;
+    height: 191px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+.redes {
+    padding: 15px;
+
+}
+
+footer {
+
+    background-color: #C4C4C4;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media (min-width: 480px) and (orientation: landscape){
+
+    header {
+     
+    }
+
+    .padre2 {
+
+        transform: rotate (1)
+        
+    }
+
+}
+
+
+
+  
+
