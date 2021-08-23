@@ -15,7 +15,7 @@ header {
 }
 
 .padre1 {
-    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 20/img/Fondo.png');
+    background-image: url('../img/Fondo.png');
     width: 414px;
     height: 512px;
     display: flex;
@@ -184,9 +184,7 @@ footer {
 
 @media (min-width: 480px) and (orientation: landscape){
 
-    header {
-     
-    }
+
 
     .padre2 {
 
