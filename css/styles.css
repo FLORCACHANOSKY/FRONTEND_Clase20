@@ -129,7 +129,7 @@ h2 {
 }
 
 .silla {
-    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 20/img/banner 1.png');
+    background-image: url('../img/banner 1.png');
     width: 288px;
     height: 108px;
     border-radius: 2%;
@@ -142,7 +142,7 @@ h2 {
 }
 
 .computadoras {
-    background-image: url('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 20/img/banner 2.png');
+    background-image: url('../img/banner 2.png');
     width: 288px;
     height: 108px;
     border-radius: 2%;
